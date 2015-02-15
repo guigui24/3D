@@ -3,18 +3,18 @@
 
 #include "Triangle.h"
 
-/*class Face
+class Face
 {
     public:
 
-    Triangle(float basse, float hauteur, std::string const vertexShader, std::string const fragmentShader);
-    ~Triangle();
+    Face(float basse, float hauteur, std::string const vertexShader, std::string const fragmentShader);
+    ~Face();
 
     void afficher(glm::mat4 &projection, glm::mat4 &modelview);
-    /*glm::vec3 getTaille();
+    glm::vec3 getTaille();
     void setPosition(glm::vec3 position);
     glm::vec3 getPosition();
-    /*void setAngle(glm::vec3 angle);
+    void setAngle(glm::vec3 angle);
     glm::vec3 getAngle();
 
     protected:

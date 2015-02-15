@@ -43,6 +43,7 @@
 			<Add library="SDL2.dll" />
 			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL-2.0/lib" />
 		</Linker>
+		<Unit filename="Face.h" />
 		<Unit filename="Input.cpp" />
 		<Unit filename="Input.h" />
 		<Unit filename="SceneOpenGL.cpp" />
