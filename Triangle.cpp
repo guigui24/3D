@@ -89,6 +89,23 @@ void Triangle::afficher(glm::mat4 &projection, glm::mat4 &modelview)
 
     modelview = sauvegardeModelview;
 }
-    /*glm::vec3 getTaille();*/
-    void setPosition(glm::vec3 position);
-    glm::vec3 getPosition();
+
+void Triangle::setPosition(glm::vec3 position)
+{
+    m_position = position;
+}
+
+glm::vec3 Triangle::getPosition()
+{
+    return m_position;
+}
+
+void Triangle::setAngle(glm::vec3 angle)
+{
+    m_angle = angle;
+}
+
+glm::vec3 Triangle::getAngle()
+{
+    return m_angle;
+}

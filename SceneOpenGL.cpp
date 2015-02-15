@@ -177,6 +177,8 @@ void SceneOpenGL::bouclePrincipale()
         modelview = mat4(1.0);
         modelview = lookAt(vec3(5.0, 5.0, 5.0), vec3(0.0, 0.0, 0.0), vec3(0.0, 0.0, 1.0));
 
+        triangle.setPosition(vec3(2.5,0.0,0.0));
+        triangle.setAngle(triangle.getAngle()+vec3(360/100,0.0,0.0));
 
         triangle.afficher(projection,modelview);
 

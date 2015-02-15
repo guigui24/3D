@@ -622,3 +622,51 @@
 	<glm/gtc/type_ptr.hpp>
 	"Shader.h"
 
+1424032128 source:c:\users\c-unk\documents\github\3d\input.cpp
+	"Input.h"
+
+1424032128 c:\users\c-unk\documents\github\3d\input.h
+	<SDL2/SDL.h>
+
+1424032129 source:c:\users\c-unk\documents\github\3d\main.cpp
+	<SDL2/SDL.h>
+	<iostream>
+	"SceneOpenGL.h"
+
+1424032128 c:\users\c-unk\documents\github\3d\sceneopengl.h
+	<GL/glew.h>
+	<GL3/gl3.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<SDL2/SDL.h>
+	<iostream>
+	<string>
+	"Input.h"
+	"Triangle.h"
+
+1424033032 c:\users\c-unk\documents\github\3d\triangle.h
+	<GL/glew.h>
+	<GL3/gl3.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"Shader.h"
+
+1424032128 c:\users\c-unk\documents\github\3d\shader.h
+	<GL/glew.h>
+	<OpenGL/gl3.h>
+	<GL3/gl3.h>
+	<iostream>
+	<string>
+	<fstream>
+
+1424033372 source:c:\users\c-unk\documents\github\3d\sceneopengl.cpp
+	"SceneOpenGL.h"
+
+1424032128 source:c:\users\c-unk\documents\github\3d\shader.cpp
+	"Shader.h"
+
+1424033207 source:c:\users\c-unk\documents\github\3d\triangle.cpp
+	"Triangle.h"
+
